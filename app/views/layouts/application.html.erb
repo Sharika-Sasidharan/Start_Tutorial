@@ -5,11 +5,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
    <link href="//fonts.googleapis.com/css?family=Bitter:400,700|Lobster|Roboto:400,700" rel="stylesheet">
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+       <%= yield %>
+    </div>
+   
   </body>
 </html>
