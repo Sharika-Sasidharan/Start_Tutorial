@@ -64,3 +64,12 @@ h1 {
       font-family: 'Roboto', serif;
       font-weight: 800;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+    &:hover, &:focus {
+       background-color: #2F80ED; 
+    }
+}
