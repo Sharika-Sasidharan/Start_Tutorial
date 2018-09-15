@@ -10,7 +10,7 @@
        <h3 class="text-center">Basic Membership</h3>
        <h5>Sign up for free and get basic access to the community.</h5>
        <br>
-       <%= link_to "Sign Up with Basic", "#", class: 'btn btn-primary btn-lg btn-block' %>
+       <%= link_to "Sign Up with Basic", new_user_registration_path(plan: @basic_plan), class: 'btn btn-primary btn-lg btn-block' %>
      </div>
     </div>
     <div class="col-md-6">
@@ -18,7 +18,7 @@
        <h3 class="text-center">Pro Membership</h3>
        <h5>Sign up for the pro account for Rs.100/month and get access to the community and contact information!</h5>
       
-       <%= link_to "Sign Up with Basic", "#", class: 'btn btn-success btn-lg btn-block' %>
+       <%= link_to "Sign Up with Basic", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>
   </div>
